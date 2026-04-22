@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Taha Beauty Trends</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+  <h1 class="logo">Taha Beauty Trends</h1>
+  <button onclick="scrollToBooking()">Book Appointment</button>
+</nav>
+
+<section class="hero">
+  <div class="left">
+    <h2 class="small-text">Unveil Your</h2>
+    <h1 class="gradient-text big-text">Signature Look</h1>
+
+    <p>Premium Salon & Bridal Studio in Anantapur</p>
+
+    <ul>
+      <li>✨ Premium Services</li>
+      <li>👩‍🎨 Expert Professionals</li>
+      <li>💎 Luxury Experience</li>
+    </ul>
+
+    <button onclick="scrollToBooking()">Book Appointment</button>
+  </div>
+
+  <div class="services-box">
+    <h3>Our Services</h3>
+    <div class="grid">
+      <div>Bridal ₹7500</div>
+      <div>Hair Care ₹599</div>
+      <div>Skin & Spa ₹599</div>
+      <div class="highlight">Grooming ₹29</div>
+    </div>
+  </div>
+</section>
+
+<section class="about">
+  <h2 class="shine">About Taha Beauty Trends</h2>
+
+  <p class="shine">
+    Founded by Dr. Malik Basha, Taha Beauty Trends is a premium salon in Anantapur known for bridal makeup, skincare, and luxury grooming.
+  </p>
+
+  <div class="cards">
+    <div class="card">📞 Contact <br> +91 78278 28888</div>
+    <div class="card">📍 Address <br> Sai Nagar, Anantapur</div>
+    <div class="card">⏰ Working Hours <br> 10AM - 9:30PM</div>
+  </div>
+</section>
+
+<section id="booking" class="booking">
+  <h2>Book Your Appointment</h2>
+
+  <form id="bookingForm">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="tel" id="phone" placeholder="Phone Number" required>
+
+    <select id="service" required>
+      <option value="">Select Service</option>
+      <option>Bridal</option>
+      <option>Hair Care</option>
+      <option>Skin & Spa</option>
+      <option>Grooming</option>
+    </select>
+
+    <input type="date" id="date" required>
+
+    <button type="submit">Confirm Booking</button>
+  </form>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #050510;
+  color: white;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+.logo {
+  background: linear-gradient(45deg, #ff00cc, #3333ff);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+
+/* BUTTON */
+button {
+  background: linear-gradient(45deg, #ff00cc, #3333ff);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 15px #ff00cc;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+/* LEFT */
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+}
+
+/* BIG HEADING FIX */
+.small-text {
+  font-size: 28px;
+  margin: 0;
+}
+
+.big-text {
+  font-size: 70px; /* BIGGER */
+  margin: 0;
+  line-height: 1.1;
+}
+
+/* LIST */
+.left ul {
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+.left li {
+  margin-bottom: 8px;
+}
+
+/* BUTTON ALIGN */
+.left button {
+  margin-top: 10px;
+  width: fit-content;
+}
+
+/* SHINY GRADIENT TEXT */
+.gradient-text {
+  background: linear-gradient(270deg, #ff00cc, #00f2ff, #ff00cc);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: gradientMove 5s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% }
+  50% { background-position: 100% }
+  100% { background-position: 0% }
+}
+
+/* GLOBAL TEXT HOVER SHINE */
+h1, h2, h3, p, li {
+  transition: 0.3s;
+}
+
+h1:hover, h2:hover, h3:hover, p:hover, li:hover {
+  color: #ff00cc;
+  text-shadow: 0 0 10px #ff00cc, 0 0 20px #3333ff;
+}
+
+/* SERVICES */
+.services-box {
+  background: #111;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.grid div {
+  padding: 10px;
+  background: #222;
+  border-radius: 10px;
+}
+
+.highlight {
+  background: linear-gradient(45deg, #ff00cc, #3333ff);
+}
+
+/* ABOUT */
+.about {
+  text-align: center;
+  padding: 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: #111;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(255,0,204,0.6);
+}
+
+/* SHINE TEXT */
+.shine {
+  background: linear-gradient(90deg, #fff, #ff00cc, #00f2ff);
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: shine 3s linear infinite;
+}
+
+@keyframes shine {
+  0% { background-position: -200px; }
+  100% { background-position: 200px; }
+}
+
+/* BOOKING */
+.booking {
+  text-align: center;
+  padding: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+  gap: 10px;
+}
+
+input, select {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
