@@ -20,6 +20,9 @@ It includes a stylish UI and a booking section for customers to schedule appoint
 ## 🚀 Live Demo
 https://javeriamoghal-netizen.github.io/FUTURE_FS_03/
 
+#Short pitch
+I created a website for a local salon to improve its online visibility and simplify appointment booking. It helps attract more customers, increase convenience, and support business growth.
+
 ## 📂 Project Structure
 FUTURE_FS_03/
 │── index.html
